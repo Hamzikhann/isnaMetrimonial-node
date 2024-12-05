@@ -1,0 +1,66 @@
+{
+	"development": {
+		"username": "root",
+		"password": "",
+		"database": "isnamatrimonialdb",
+		"host": "localhost",
+		"dialect": "mysql",
+		"port": "3306",
+		"pool": {
+			"max": 32,
+			"min": 0,
+			"acquire": 30000,
+			"idle": 10000
+		},
+		"dialectOptions": {
+			"dateStrings": true,
+			"typeCast": true
+		},
+		"timezone": "+05:00",
+		"logging": false
+	},
+	"test": {
+		"username": "healthatscale",
+		"password": "Oxibit12!@",
+		"database": "isna_app",
+		"host": "localhost",
+		"dialect": "mysql",
+		"port": "3306",
+		"pool": {
+			"max": 32,
+			"min": 0,
+			"acquire": 30000,
+			"idle": 10000
+		},
+		"dialectOptions": {
+			"dateStrings": true,
+			"typeCast": true
+		},
+		"timezone": "+05:00",
+		"logging": false
+	},
+	"production": {
+		"username": "isnaapp",
+		"password": "AVNS_5aiSRlYfukgdbgl1rto",
+		"database": "isnaapp",
+		"host": "db-mysql-nyc3-isna-do-user-246299-0.c.db.ondigitalocean.com",
+		"port": "25060",
+		"dialect": "mysql",
+		"pool": {
+			"max": 32,
+			"min": 0,
+			"acquire": 30000,
+			"idle": 10000
+		},
+		"dialectOptions": {
+			"dateStrings": true,
+			"typeCast": true,
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		},
+		"timezone": "-05:00",
+		"logging": false
+	}
+}
